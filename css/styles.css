@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium';
+    font-size: 18px;
+    line-height: 24px;
+}
+h1{
+    margin-bottom: 35px;
+    line-height: 34px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.header,
+.main,
+.footer{
+    padding: 35px;
+}
+
+.header{
+    background-color: azure;
+    overflow: hidden;
+}
+
+.header .logo img {
+    width: 210px;
+}
+
+.header .logo,
+.header .contacts{
+    display: inline-block;
+    vertical-align: middle ;
+}
+
+.header .contacts{
+    float: right;
+    text-align: right;
+}
+
+.header .contacts h3{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.header .contacts p{
+    margin-bottom: 0;
+}
+
+.navigation{
+    background-color: rgb(59, 219, 219);
+}
+
+.navigation ul{
+    list-style: none;
+
+}
+
+.navigation li{
+    display: inline-block;
+}
+.navigation a{
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 30px;
+}
+
+.navigation a:hover{
+    background-color: rgb(31, 199, 199);
+    color: green
+}
+
+.main{
+    background-color: green;
+}
+
+.footer{
+    background-color: grey;
+}
